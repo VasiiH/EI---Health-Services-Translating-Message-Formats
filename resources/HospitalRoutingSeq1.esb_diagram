@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_03-9INpHEeyy6qLoPZEqPA" type="Esb" name="HospitalRoutingSeq1" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_04laEtpHEeyy6qLoPZEqPA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_04laF9pHEeyy6qLoPZEqPA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_1GRQwNpHEeyy6qLoPZEqPA" type="3664" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1GRQwtpHEeyy6qLoPZEqPA" type="7043">
+          <children xmi:type="notation:Node" xmi:id="_1GkywNpHEeyy6qLoPZEqPA" type="3665">
+            <children xmi:type="notation:Node" xmi:id="_1GkyxdpHEeyy6qLoPZEqPA" type="3615">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1GkyytpHEeyy6qLoPZEqPA" type="7035">
+                <children xmi:type="notation:Node" xmi:id="_1G470NpHEeyy6qLoPZEqPA" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_1G471dpHEeyy6qLoPZEqPA" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_1HVnwNpHEeyy6qLoPZEqPA" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1HVnwdpHEeyy6qLoPZEqPA"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_1HVnwtpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_1HVnw9pHEeyy6qLoPZEqPA"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.0/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1HVnxNpHEeyy6qLoPZEqPA" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_1HVnxdpHEeyy6qLoPZEqPA" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1HVnxtpHEeyy6qLoPZEqPA"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_1HVnx9pHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_1HVnyNpHEeyy6qLoPZEqPA"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.0/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1HVnydpHEeyy6qLoPZEqPA" x="64" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_1G470dpHEeyy6qLoPZEqPA"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_1G470tpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_1G4709pHEeyy6qLoPZEqPA"/>
+                  <element xmi:type="esb:LogMediator" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1G471NpHEeyy6qLoPZEqPA" x="25" y="89" width="84" height="115"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_1HyTsNpHEeyy6qLoPZEqPA" type="3492">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_1HyTtdpHEeyy6qLoPZEqPA" type="5167"/>
+                  <children xmi:type="notation:Node" xmi:id="_1IFOoNpHEeyy6qLoPZEqPA" type="3033">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1IFOodpHEeyy6qLoPZEqPA"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_1IFOotpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_1IFOo9pHEeyy6qLoPZEqPA"/>
+                    <element xmi:type="esb:PropertyMediatorInputConnector" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.1/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1IFOpNpHEeyy6qLoPZEqPA" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_1IFOpdpHEeyy6qLoPZEqPA" type="3034">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_1IFOptpHEeyy6qLoPZEqPA"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_1IFOp9pHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_1IFOqNpHEeyy6qLoPZEqPA"/>
+                    <element xmi:type="esb:PropertyMediatorOutputConnector" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.1/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1IFOqdpHEeyy6qLoPZEqPA" x="64" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_1HyTsdpHEeyy6qLoPZEqPA"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_1HyTstpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_1HyTs9pHEeyy6qLoPZEqPA"/>
+                  <element xmi:type="esb:PropertyMediator" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1HyTtNpHEeyy6qLoPZEqPA" x="149" y="89" width="84" height="115"/>
+                </children>
+                <styles xmi:type="notation:TitleStyle" xmi:id="_1Gkyy9pHEeyy6qLoPZEqPA" showTitle="true"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_1GkyxtpHEeyy6qLoPZEqPA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_1Gkyx9pHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_1GkyyNpHEeyy6qLoPZEqPA"/>
+              <element xmi:type="esb:MediatorFlow" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1GkyydpHEeyy6qLoPZEqPA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1GkyzNpHEeyy6qLoPZEqPA" type="3616">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_1GkyzdpHEeyy6qLoPZEqPA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_1GkyztpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_1Gkyz9pHEeyy6qLoPZEqPA"/>
+              <element xmi:type="esb:SequencesInputConnector" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Gky0NpHEeyy6qLoPZEqPA" x="-11" y="-9"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_1Gky0dpHEeyy6qLoPZEqPA" type="3617">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_1Gky0tpHEeyy6qLoPZEqPA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_1Gky09pHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_1Gky1NpHEeyy6qLoPZEqPA"/>
+              <element xmi:type="esb:SequencesOutputConnector" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Gky1dpHEeyy6qLoPZEqPA" x="-11" y="-9"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_1GkywdpHEeyy6qLoPZEqPA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_1GkywtpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_1Gkyw9pHEeyy6qLoPZEqPA"/>
+            <element xmi:type="esb:Sequences" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1GkyxNpHEeyy6qLoPZEqPA" width="195" height="125"/>
+          </children>
+        </children>
+        <element xmi:type="esb:Template" href="HospitalRoutingSeq1.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1GRQwdpHEeyy6qLoPZEqPA" width="3000" height="3000"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_04laE9pHEeyy6qLoPZEqPA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_04laFNpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_04laFdpHEeyy6qLoPZEqPA"/>
+    <element xmi:type="esb:EsbServer" href="HospitalRoutingSeq1.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_04laFtpHEeyy6qLoPZEqPA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_03-9IdpHEeyy6qLoPZEqPA"/>
+  <element xmi:type="esb:EsbDiagram" href="HospitalRoutingSeq1.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_1MNgsNpHEeyy6qLoPZEqPA" type="4001" source="_1Gky0dpHEeyy6qLoPZEqPA" target="_1HVnwNpHEeyy6qLoPZEqPA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1MNgsdpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1MNgstpHEeyy6qLoPZEqPA" points="[9, 9, -97, -87]$[100, 90, -6, -6]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1MqMoNpHEeyy6qLoPZEqPA" type="4001" source="_1HVnxdpHEeyy6qLoPZEqPA" target="_1IFOoNpHEeyy6qLoPZEqPA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1MqModpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1MqMotpHEeyy6qLoPZEqPA" points="[-11, 0, 73, 0]$[-78, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1MqMo9pHEeyy6qLoPZEqPA" type="4001" source="_1IFOpdpHEeyy6qLoPZEqPA" target="_1GkyzNpHEeyy6qLoPZEqPA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1MqMpNpHEeyy6qLoPZEqPA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HospitalRoutingSeq1.esb#//@server/@children.0/@child/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1MqMpdpHEeyy6qLoPZEqPA" points="[5, -9, 0, 87]$[0, -87, -5, 9]"/>
+  </edges>
+</notation:Diagram>

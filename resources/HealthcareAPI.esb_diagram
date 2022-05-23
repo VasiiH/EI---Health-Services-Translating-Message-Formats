@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_3S7fINpTEeyL3JPRkiAnFQ" type="Esb" name="HealthcareAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_4vnfkNpTEeyL3JPRkiAnFQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4vvbYNpTEeyL3JPRkiAnFQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_6gdLENpTEeyL3JPRkiAnFQ" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_6gdyINpTEeyL3JPRkiAnFQ" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_6g0-gNpTEeyL3JPRkiAnFQ" type="3669">
+            <children xmi:type="notation:Node" xmi:id="_6g6eENpTEeyL3JPRkiAnFQ" type="3670">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_6g6eEdpTEeyL3JPRkiAnFQ"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_6g6eEtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_6g6eE9pTEeyL3JPRkiAnFQ"/>
+              <element xmi:type="esb:APIResourceInputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6g6eFNpTEeyL3JPRkiAnFQ" x="86" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6g7FINpTEeyL3JPRkiAnFQ" type="3671">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_6g7FIdpTEeyL3JPRkiAnFQ"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_6g7FItpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_6g7FI9pTEeyL3JPRkiAnFQ"/>
+              <element xmi:type="esb:APIResourceOutputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6g7FJNpTEeyL3JPRkiAnFQ" x="86" y="-23"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6g7sMNpTEeyL3JPRkiAnFQ" type="3730">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_6g7sMdpTEeyL3JPRkiAnFQ"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_6g7sMtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_6g7sM9pTEeyL3JPRkiAnFQ"/>
+              <element xmi:type="esb:APIResourceOutSequenceOutputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6g7sNNpTEeyL3JPRkiAnFQ" x="110" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6g7sNdpTEeyL3JPRkiAnFQ" type="3672">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_6g7sNtpTEeyL3JPRkiAnFQ"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_6g7sN9pTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_6g7sONpTEeyL3JPRkiAnFQ"/>
+              <element xmi:type="esb:APIResourceFaultInputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@faultInputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6g7sOdpTEeyL3JPRkiAnFQ" x="86" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6g8TQNpTEeyL3JPRkiAnFQ" type="3673">
+              <children xmi:type="notation:Node" xmi:id="_6hBLwNpTEeyL3JPRkiAnFQ" type="3487">
+                <children xmi:type="notation:Node" xmi:id="_6hEPENpTEeyL3JPRkiAnFQ" type="3608">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_6hE2INpTEeyL3JPRkiAnFQ" type="7034">
+                    <children xmi:type="notation:Node" xmi:id="_6hwyoNpTEeyL3JPRkiAnFQ" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_6hxZtNpTEeyL3JPRkiAnFQ" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_6iWBcNpTEeyL3JPRkiAnFQ" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6iWBcdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6iWBctpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6iWBc9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6iWBdNpTEeyL3JPRkiAnFQ" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_6iWogNpTEeyL3JPRkiAnFQ" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6iWogdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6iWogtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6iWog9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6iWohNpTEeyL3JPRkiAnFQ" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_6hxZsNpTEeyL3JPRkiAnFQ"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_6hxZsdpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_6hxZstpTEeyL3JPRkiAnFQ"/>
+                      <element xmi:type="esb:PropertyMediator" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6hxZs9pTEeyL3JPRkiAnFQ" x="25" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_6kf9kNpTEeyL3JPRkiAnFQ" type="3761">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_6kf9ldpTEeyL3JPRkiAnFQ" type="5211"/>
+                      <children xmi:type="notation:Node" xmi:id="_6kzfkNpTEeyL3JPRkiAnFQ" type="3762">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6kzfkdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6kzfktpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6kzfk9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:DataMapperMediatorInputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6kzflNpTEeyL3JPRkiAnFQ" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_6k0GoNpTEeyL3JPRkiAnFQ" type="3763">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6k0GodpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6k0GotpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6k0Go9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:DataMapperMediatorOutputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6k0GpNpTEeyL3JPRkiAnFQ" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_6kf9kdpTEeyL3JPRkiAnFQ"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_6kf9ktpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_6kf9k9pTEeyL3JPRkiAnFQ"/>
+                      <element xmi:type="esb:DataMapperMediator" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6kf9lNpTEeyL3JPRkiAnFQ" x="149" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_6lUc8NpTEeyL3JPRkiAnFQ" type="3742">
+                      <children xmi:type="notation:Node" xmi:id="_6leN8NpTEeyL3JPRkiAnFQ" type="3743">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6leN8dpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6leN8tpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6leN89pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:CallMediatorInputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6leN9NpTEeyL3JPRkiAnFQ" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_6le1ANpTEeyL3JPRkiAnFQ" type="3744">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6le1AdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6le1AtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6le1A9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:CallMediatorOutputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6le1BNpTEeyL3JPRkiAnFQ" x="-11" y="-9"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_6lfcENpTEeyL3JPRkiAnFQ" type="3745">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6lfcEdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6lfcEtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6lfcE9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:CallMediatorEndpointOutputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@endpointOutputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6lfcFNpTEeyL3JPRkiAnFQ"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_6lgDINpTEeyL3JPRkiAnFQ" type="3746">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_6lgqMNpTEeyL3JPRkiAnFQ" type="7047">
+                          <children xmi:type="notation:Node" xmi:id="_6l654NpTEeyL3JPRkiAnFQ" type="3660">
+                            <children xmi:type="notation:DecorationNode" xmi:id="_6l655dpTEeyL3JPRkiAnFQ" type="5165"/>
+                            <children xmi:type="notation:Node" xmi:id="_6mLYkNpTEeyL3JPRkiAnFQ" type="3661">
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_6mLYkdpTEeyL3JPRkiAnFQ"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_6mLYktpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_6mLYk9pTEeyL3JPRkiAnFQ"/>
+                              <element xmi:type="esb:NamedEndpointInputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@mediatorFlow/@children.0/@inputConnector"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6mLYlNpTEeyL3JPRkiAnFQ"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_6l654dpTEeyL3JPRkiAnFQ"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_6l654tpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_6l6549pTEeyL3JPRkiAnFQ"/>
+                            <element xmi:type="esb:NamedEndpoint" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@mediatorFlow/@children.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6l655NpTEeyL3JPRkiAnFQ" x="5" y="103"/>
+                          </children>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_6lgqMdpTEeyL3JPRkiAnFQ" showTitle="true"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6lgDIdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6lgDItpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6lgDI9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:MediatorFlow" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@mediatorFlow"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6lgDJNpTEeyL3JPRkiAnFQ"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_6lUc8dpTEeyL3JPRkiAnFQ"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_6lUc8tpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_6lUc89pTEeyL3JPRkiAnFQ"/>
+                      <element xmi:type="esb:CallMediator" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6lUc9NpTEeyL3JPRkiAnFQ" x="273" y="38" width="170" height="100"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_6mfhoNpTEeyL3JPRkiAnFQ" type="3739">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_6mgIsNpTEeyL3JPRkiAnFQ" type="5209"/>
+                      <children xmi:type="notation:Node" xmi:id="_6muLINpTEeyL3JPRkiAnFQ" type="3740">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6muLIdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6muLItpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6muLI9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:RespondMediatorInputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6muLJNpTEeyL3JPRkiAnFQ" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_6muyMNpTEeyL3JPRkiAnFQ" type="3741">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_6muyMdpTEeyL3JPRkiAnFQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_6muyMtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_6muyM9pTEeyL3JPRkiAnFQ"/>
+                        <element xmi:type="esb:RespondMediatorOutputConnector" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6muyNNpTEeyL3JPRkiAnFQ" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_6mfhodpTEeyL3JPRkiAnFQ"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_6mfhotpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_6mfho9pTEeyL3JPRkiAnFQ"/>
+                      <element xmi:type="esb:RespondMediator" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6mfhpNpTEeyL3JPRkiAnFQ" x="483" y="38" width="84" height="115"/>
+                    </children>
+                    <styles xmi:type="notation:TitleStyle" xmi:id="_6hE2IdpTEeyL3JPRkiAnFQ" showTitle="true"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_6hEPEdpTEeyL3JPRkiAnFQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_6hEPEtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_6hEPE9pTEeyL3JPRkiAnFQ"/>
+                  <element xmi:type="esb:MediatorFlow" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6hEPFNpTEeyL3JPRkiAnFQ"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_6hBLwdpTEeyL3JPRkiAnFQ"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_6hBLwtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_6hBLw9pTEeyL3JPRkiAnFQ"/>
+                <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6hBLxNpTEeyL3JPRkiAnFQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_6hBy0NpTEeyL3JPRkiAnFQ" type="3488">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_6hBy0dpTEeyL3JPRkiAnFQ"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_6hBy0tpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_6hBy09pTEeyL3JPRkiAnFQ"/>
+                <element xmi:type="esb:ProxyServiceFaultContainer" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6hBy1NpTEeyL3JPRkiAnFQ"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_6g8TQdpTEeyL3JPRkiAnFQ"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_6g8TQtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_6g8TQ9pTEeyL3JPRkiAnFQ"/>
+              <element xmi:type="esb:ProxyServiceContainer" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6g8TRNpTEeyL3JPRkiAnFQ"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_6g0-gdpTEeyL3JPRkiAnFQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_6g0-gtpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_6g0-g9pTEeyL3JPRkiAnFQ"/>
+            <element xmi:type="esb:APIResource" href="HealthcareAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6g0-hNpTEeyL3JPRkiAnFQ" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="HealthcareAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6gdLEdpTEeyL3JPRkiAnFQ" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_4vnfkdpTEeyL3JPRkiAnFQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4vnfktpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_4vnfk9pTEeyL3JPRkiAnFQ"/>
+    <element xmi:type="esb:EsbServer" href="HealthcareAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4vnflNpTEeyL3JPRkiAnFQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_3S7fIdpTEeyL3JPRkiAnFQ"/>
+  <element xmi:type="esb:EsbDiagram" href="HealthcareAPI.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_6p2-sNpTEeyL3JPRkiAnFQ" type="4001" source="_6g7FINpTEeyL3JPRkiAnFQ" target="_6iWBcNpTEeyL3JPRkiAnFQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_6p2-sdpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6p2-stpTEeyL3JPRkiAnFQ" points="[6, 5, -5, 0]$[5, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_6qROYNpTEeyL3JPRkiAnFQ" type="4001" source="_6iWogNpTEeyL3JPRkiAnFQ" target="_6kzfkNpTEeyL3JPRkiAnFQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_6qROYdpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6qROYtpTEeyL3JPRkiAnFQ" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_6qWt8NpTEeyL3JPRkiAnFQ" type="4001" source="_6k0GoNpTEeyL3JPRkiAnFQ" target="_6leN8NpTEeyL3JPRkiAnFQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_6qWt8dpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6qWt8tpTEeyL3JPRkiAnFQ" points="[-11, 0, 75, 0]$[-80, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_6qc0kNpTEeyL3JPRkiAnFQ" type="4001" source="_6le1ANpTEeyL3JPRkiAnFQ" target="_6muLINpTEeyL3JPRkiAnFQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_6qc0kdpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6qc0ktpTEeyL3JPRkiAnFQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_6qpo4NpTEeyL3JPRkiAnFQ" type="4001" source="_6lfcENpTEeyL3JPRkiAnFQ" target="_6mLYkNpTEeyL3JPRkiAnFQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_6qpo4dpTEeyL3JPRkiAnFQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="HealthcareAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6qpo4tpTEeyL3JPRkiAnFQ" points="[2, 9, -31, -110]$[31, 114, -2, -5]"/>
+  </edges>
+</notation:Diagram>

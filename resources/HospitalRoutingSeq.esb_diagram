@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_GB6j0NgqEeyJhPa4uXGUIw" type="Esb" name="HospitalRoutingSeq" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_GCTlYtgqEeyJhPa4uXGUIw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GCTlZ9gqEeyJhPa4uXGUIw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_GHOhoNgqEeyJhPa4uXGUIw" type="3664" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_GHOhotgqEeyJhPa4uXGUIw" type="7043"/>
+        <element xmi:type="esb:Template" href="HospitalRoutingSeq.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GHOhodgqEeyJhPa4uXGUIw" width="3000" height="3000"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_GCTlY9gqEeyJhPa4uXGUIw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GCTlZNgqEeyJhPa4uXGUIw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_GCTlZdgqEeyJhPa4uXGUIw"/>
+    <element xmi:type="esb:EsbServer" href="HospitalRoutingSeq.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GCTlZtgqEeyJhPa4uXGUIw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_GB6j0dgqEeyJhPa4uXGUIw"/>
+  <element xmi:type="esb:EsbDiagram" href="HospitalRoutingSeq.esb#/"/>
+</notation:Diagram>
